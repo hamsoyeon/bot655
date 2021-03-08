@@ -30,7 +30,5 @@ async def on_message(message):
 
     if message.content.startswith("c#"):
         await message.channel.send("(화)https://zoom.us/j/4653627989?pwd=VTJKSEJBWDRYZ1B4OVJqbVRzK1lkUT09\n(수)https://us02web.zoom.us/j/87533912414?pwd=TzY5ZlViWXh1RFVxZ1JNL3cvbDlCZz09")
-
-
-
+  
 client.run("ODE3MzM1ODU2NTEwNzk1ODE2.YEIBVQ.SphITz9A5KpHIsV69Mhd6395sWQ")
