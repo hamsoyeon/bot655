@@ -29,7 +29,7 @@ async def on_message(message):
         await message.channel.send("https://us02web.zoom.us/j/4507754358?pwd=bXg0cXlWSkNyOHFhNnRuT2dadk1mUT09")
 
     if message.content.startswith("씨샵"):
-        await message.channel.send("(화)https://zoom.us/j/4653627989?pwd=VTJKSEJBWDRYZ1B4OVJqbVRzK1lkUT09\n(수)https://us02web.zoom.us/j/87533912414?pwd=TzY5ZlViWXh1RFVxZ1JNL3cvbDlCZz09")
+        await message.channel.send("(화)https://us02web.zoom.us/j/81855014057?pwd=UWdIR0hPOTNESEhDVTFkY2hSSmpjdz09\n(수)https://us02web.zoom.us/j/87533912414?pwd=TzY5ZlViWXh1RFVxZ1JNL3cvbDlCZz09")
   
 access_token=os.environ["BOT_TOKEN"]
 client.run(access_token)
